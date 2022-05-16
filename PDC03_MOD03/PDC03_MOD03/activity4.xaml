@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity4">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame>
+                <AbsoluteLayout Margin="20">
+                    <BoxView Color="Blue"
+                    AbsoluteLayout.LayoutBounds="0,10,250,10"/>
+
+                    <BoxView Color="Blue"
+                    AbsoluteLayout.LayoutBounds="0,30,250,10"/>
+
+                    <BoxView Color="Black"
+                    AbsoluteLayout.LayoutBounds="0,10,250,70"/>
+
+                    <BoxView Color="Black"
+                    AbsoluteLayout.LayoutBounds="0,10,250,70"/>
+                </AbsoluteLayout>
+            </Frame>
+
+            <AbsoluteLayout Padding="20" VerticalOptions="CenterAndExpand">
+            <Entry AbsoluteLayout.LayoutBounds="0,40,1,40" 
+                   AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" 
+                   Placeholder="Username" HorizontalOptions="FillAndExpand"/>
+
+            <Entry AbsoluteLayout.LayoutBounds="0,100,1,40" 
+                   AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" 
+                   Placeholder="Password" HorizontalOptions="FillAndExpand"/>
+
+            <Entry AbsoluteLayout.LayoutBounds="0,100,1,40" 
+                   AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

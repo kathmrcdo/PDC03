@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Module 03 - Layout and Images" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Activity 01 - StackLayout" Clicked="Activity01"/>
+        <Button Text="Activity 02 - Frame and Stacklayout" Clicked="Activity02"/>
+        <Button Text="Activity 03 - Grid" Clicked="Activity03"/>
+        <Button Text="Activity 04 - Absolute Layout" Clicked="Activity04"/>
+        <Button Text="Activity 05 - Relative Layout" Clicked="Activity05"/>
+        <Button Text="Activity 06 - Display Image" Clicked="Activity06"/>
+
+    </StackLayout>
+
+</ContentPage>
